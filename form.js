@@ -1,4 +1,4 @@
-const apiurl = "https://proyecto-2prx1tvge-angelicas-projects-7838821e.vercel.app";
+const apiurl = "https://proyecto-ag.vercel.app";
 
 async function enviarDatosFormulario() {
   const form = document.getElementById("formulario");
