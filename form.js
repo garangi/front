@@ -15,3 +15,4 @@ async function enviarDatosFormulario() {
   respuesta = await respuesta.json();
   alert(respuesta.message);
 }
+

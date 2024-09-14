@@ -158,7 +158,7 @@ img{
     flex-wrap: wrap;
     position:fixed;
     width: 250px;
-    height: 100svh;
+    height: 90svh;
     top: 0;
     right: -250px;
     transition: .3s;
@@ -167,14 +167,34 @@ img{
 }
 .active{
     right: 0 !important;
+    width: 40%;
+    display: flex;
+    flex-direction:row;
+    transition: none;
+
 }
 .active .product{
-    width: 50%;
-    margin: 2% 1%;
-    height: auto !important;
+    width: 220px;
+    height: 300px;
     border-radius: 1rem;
     background-color: var(--blanco);
+    transition: none;
+    cursor: none;
 }
+.active .product h3{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
+.active .product img{
+    height: 200px;
+    width: auto;
+    padding-bottom: 5px;
+    margin: 0;
+
+
+}
+
 .carritoc{
     width: 66px;
     height: auto;
@@ -187,7 +207,7 @@ img{
     background-color: white;
     width: 30%;
     margin: 2% 1%;
-    height: 580px;
+    height: 530px;
     border-radius: 1rem;
     overflow: hidden;
     background-color: var(--blanco);
@@ -204,18 +224,15 @@ img{
 }
 .product-head img{
     width: 100%;
-    height: auto;
     border-radius: 2rem;
 }
 .product-body{
-    height: 100%;
     display: block;
-    padding: 8px;
+    padding: 19px;
 }
 .product-body h3, .product-body h2{
     width: 100%;
     color: #222;
-    margin: 2px 0;
     text-align: center;
     font-weight: var(--parrafos);
     font-weight: 600;
@@ -224,13 +241,13 @@ img{
 }
 .payment{
     display: flex;
-    margin-top: 3px;
 }
 /* txt decripción */
 .product-body p{
     color: hsl(0, 0%, 25%);
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 2px;
     text-align: center;
     font-size: 18px; 
     font-family: var(--titulos);
@@ -241,6 +258,7 @@ img{
     font-size: 20px; 
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 1px;
 }
 .product-body button{
     background: var(--azul);
@@ -250,28 +268,29 @@ img{
     font-weight: 400;
     text-shadow: 2px 2px 3px rgba(1, 1, 54, 0.5);
     text-align: center;
-    margin-top: 15px;
+    margin-top: 5px;
+    padding-top: 1px;
 }
 .product-body button:hover{
     background: var(--rojo);
 }
 
 /*Menu*/
-.container-pro {
+/* .container-pro {
     width: 100%;
-    max-width: 100rem;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-}
-.postres{
+} */
+/* .postres{
     width:1000px;
     padding-top: 20px;
     margin-left: 198px;
-}
+} */
 .cardm {
     width: 100%;
+    height: 50px;
     margin: 2rem;
     border-radius: 0.6rem;
     overflow: hidden;
@@ -360,6 +379,7 @@ img{
 .banner2
 .txtReserva{
     margin: 20px;
+    gap: px;
 }
 .button__botonmenu{
     background: var(--rojo);
@@ -534,6 +554,9 @@ border-radius: 30%;
     margin: 0 auto;
     max-width: 120rem;
     width: 95%;
+}
+.row {
+    margin-bottom: 15px;
 }
 
 /* pág reservas - formulario*/
