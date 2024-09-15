@@ -194,7 +194,6 @@ img{
 
 
 }
-
 .carritoc{
     width: 66px;
     height: auto;
@@ -202,7 +201,6 @@ img{
     border: 0px;
     justify-content:space-around;
 }
-
 .product{
     background-color: white;
     width: 30%;
@@ -638,10 +636,6 @@ border-radius: 30%;
     text-align: center;
     font-size: 23px;
 }
-
-
-
-
 /* pág reservas - banner reservas*/
 .bannerr{
     height: 80vh;
@@ -689,9 +683,6 @@ border-radius: 30%;
     background-color: var(--azulClaro);
     margin-bottom: .5rem;
 }
-
-
-
 /* Estilos footer */
 .footer {
     background-color: var(--azul);
