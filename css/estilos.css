@@ -373,7 +373,7 @@ img{
     padding: 1rem;
     border-radius: 30px;
     margin-top: 2rem;
-    margin-right: 1rem;
+    margin-right: 5rem;
 }
 .banner2
 .txtReserva{
@@ -567,6 +567,7 @@ border-radius: 30%;
     padding: 2rem;
     border-radius: .5rem;
     margin-left: 5px;
+    width: 80%;
 }
 .fomulario-encabezado h3{
     color: var(--blanco);
