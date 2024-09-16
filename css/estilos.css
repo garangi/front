@@ -366,14 +366,15 @@ img{
 .cardpt{
     width: 100%;
     margin-top: 2rem;
-    max-width: 110rem;
 }
-.cardpf img{
-    height: 60%;
+.cardpf{
+    height: 100%;
     padding: 1rem;
     border-radius: 30px;
     margin-top: 2rem;
     margin-right: 5rem;
+    display: flex;
+    flex-wrap: wrap
 }
 .banner2
 .txtReserva{
@@ -567,7 +568,7 @@ border-radius: 30%;
     padding: 2rem;
     border-radius: .5rem;
     margin-left: 5px;
-    width: 80%;
+
 }
 .fomulario-encabezado h3{
     color: var(--blanco);
