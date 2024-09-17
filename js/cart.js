@@ -10,7 +10,7 @@ let products = [
   {
     id: 2,
     name: "Pie de Maracuyá",
-    description: "Pie bajo en azucar, con un delicioso esponjado.",
+    description: "Pie bajo en azucar, con un delicioso esponjado con sabor a maracuyá.",
     price: "10.000",
     img: "/img/P-06.jpg",
   },
@@ -38,7 +38,7 @@ let products = [
   {
     id: 5,
     name: "Sandwich con tres carnes",
-    description: "200 gr de un delicioso cerdo ahumado, bajo en grasa, listo para calentar y servir.",
+    description: "200 gr de un delicioso cerdo ahumado, bajo en grasa.",
     price: "19.000",
     img: "/img/P-03.jpg",
   },
