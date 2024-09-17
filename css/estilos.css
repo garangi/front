@@ -226,7 +226,7 @@ img{
 }
 .product-body{
     display: block;
-    padding: 19px;
+    padding: 2px;
 }
 .product-body h3, .product-body h2{
     width: 100%;
@@ -234,7 +234,6 @@ img{
     text-align: center;
     font-weight: var(--parrafos);
     font-weight: 600;
-    margin-top: 1px;
     font-size: 25px;
 }
 .payment{
