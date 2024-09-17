@@ -24,7 +24,7 @@ let products = [
   {
     id: 3,
     name: "Picada Don Vergüenzas",
-    description: "200 gr de un delicioso cerdo ahumado, bajo en grasa, listo para calentar y servir.",
+    description: "200 gr de un delicioso cerdo ahumado, bajo en grasa, muy rico.",
     price: "40.000",
     img: "/img/P-04.jpg",
   },
